@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <div class="container" id="home">
+
+        <h1 class="container-h1"><span>T</span>amilselvan</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="toggleMenu"><i class="fa-solid fa-bars" id="nav-btn"></i></div>
+        </nav>
+
+
+    </div>
+
+    <!-- side navebar -->
+
+
+    <div class="side-navbar" id="sideNav">
+
+        <div class="sidenav-list">
+
+            <p><i class="fa-solid fa-xmark" id="close-btn"></i></p>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <!-- Header -->
+
+    <div class="header">
+
+        <div class="text-container">
+
+            <p class="text-p1">Hello, I'm
+            <p>
+            <h1>Tamilselvan</h1>
+            <p class="text-p2">Frontend Developer
+            <p>
+
+            <div class="buttons">
+                <a href="">Resume</a>
+            </div>
+
+
+        </div>
+
+
+        <div class="profile">
+            <img src="Assets/profile.png">
+        </div>
+    </div>
+
+    <!-- About ME -->
+
+
+    <div class="about-me" id="about">
+
+
+        <div class="about-container">
+
+            <div class="row">
+                <div class="column-1"><img src="Assets/About me.png"></div>
+                <div class="column-2">
+
+                    <h1>About Me</h1>
+                    <p class="aboutme-title">I'm an enthusiastic front-end developer with a talent for creating
+                        responsive, aesthetically
+                        pleasing, and user-friendly websites. A solid background in HTML, CSS, and JavaScript, I
+                        turn imaginative designs into websites that work and look flawless. I've worked with
+                        contemporary framework like React before, and I'm constantly keen to pick up new
+                        skills and master new technologies.</p>
+
+                    <div class="titles">
+                        <p class="title-links active-tab" onclick="opentab('skills')">Skills</p>
+                        <p class="title-links" onclick="opentab('interest')">Interest</p>
+                        <p class="title-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="contents active-content" id="skills">
+                        <ul>
+                            <li><i class="fa-brands fa-html5"></i> HTML</li>
+                            <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                            <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                            <li><i class="fa-brands fa-react"></i> React Js</li>
+                            <li> <i class="fa-brands fa-python"></i> Python</li>
+                            <li> <i class="fa-brands fa-git-alt"></i> Git</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="contents" id="interest">
+                        <ul>
+                            <li><i class="fa-solid fa-code"></i> Web Development</li>
+                            <li><i class="fa-solid fa-code"></i> Software Development</li>
+                            <li><i class="fa-solid fa-clapperboard"></i> Video Editing</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="contents" id="education">
+                        <ul>
+                            <p>2020-2024</p>
+                            <li><i class="fa-solid fa-user-graduate"></i> B.E - EEE</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Services -->
+
+    <div id="services">
+
+        <div class="service-container">
+
+            <h1>Services</h1>
+            <div class="service-list">
+                <div>
+                    <h2>Luxora</h2>
+                    <p>It's just a shopping website that I made to make apparel purchases simple and offer the best
+                        customer experience.</p>
+
+                </div>
+
+                <div>
+                    <h2>Weather App</h2>
+                    <p>This app provides real-time weather updates based on your current location or a selected city</p>
+
+                </div>
+
+                <div>
+                    <h2>Movies Cloud</h2>
+                    <p>Movies Cloud is a platform where users can share and read movie reviews. The app allows users to
+                        rate and review movies.</p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Projects -->
+
+    <div class="projects" id="project">
+
+        <h1>My Projects</h1>
+
+        <div class="project-container">
+
+            <div class="work">
+                <img src="Assets/Luxora.jpg">
+                <div class="text-layer">
+                    <h3>Luxora</h3>
+                    <p>It's just a shopping website that I made to make apparel purchases simple and offer the best
+                        customer experience.</p>
+                    <a href="https://luxora-60032717659.development.catalystserverless.in/app/index.html"><i
+                            class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Assets/weather.png">
+                <div class="text-layer">
+                    <h3>Weather App</h3>
+                    <p>This app provides real-time weather updates based on your current location or a selected city</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Assets/movies cloud.png">
+                <div class="text-layer">
+                    <h3>Movies cloud</h3>
+                    <p>Movies Cloud is a platform where users can share and read movie reviews. The app allows users to
+                        rate and review movies.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    </div>
+
+    <!-- Contact info -->
+
+
+    <div class="contact-container" id="contact">
+
+        <div class="row">
+
+            <div class="contact-left">
+
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> tamilselvancg@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8248199233</p>
+
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/tamil_mass_07?igsh=YzhscGJ6d2hnMDN0"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100027093723260&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/
+                    tamil-selvan-991a20202"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/8248199233"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+
+
+            </div>
+            <div class="contact-right">
+
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="5aaaaff7-84e5-4455-bf63-af80ba5f1c93">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Email id" required>
+                    <textarea name="message" class="textArea" rows="6" placeholder="Your message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="copyright">
+
+            <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 Tamilselvan. All Rights Reserved</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
