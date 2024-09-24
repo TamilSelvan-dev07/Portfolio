@@ -168,6 +168,7 @@ nav i{
 
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     margin-left: 20%;
     
@@ -191,12 +192,15 @@ nav i{
 }
 
 .buttons{
-    margin-top: 40px;
-    
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
 
+    
 }
 
-.buttons a{
+.resume-btn{
 
     text-decoration: none;
     color: rgb(193, 193, 193);
@@ -207,12 +211,21 @@ nav i{
     font-weight: 600;
 }
 
-.buttons a:hover{
+.resume-btn:hover{
 
     background-color:var(--main-color) ;
     color:black;
     border: none;
 
+}
+
+.github-btn{
+    
+    font-size: 2rem;
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    
 }
 
 
