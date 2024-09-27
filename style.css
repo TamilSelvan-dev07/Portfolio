@@ -567,9 +567,6 @@ form button:hover{
 
 
 
-
-
-
 @media screen and (max-width:600px) {
 
     nav ul li {
@@ -708,10 +705,5 @@ form button:hover{
     padding-left: 20px;
     padding-right: 20px;
    }
-   
-
-
-   
-    
    
 }
